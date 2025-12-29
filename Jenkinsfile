@@ -6,7 +6,7 @@ pipeline {
         stage('Show Branch Name') {
             steps {
                 echo "=============================="
-                echo "Running for branch: ${env.BRANCH_NAME}"
+                echo "Running for ranch: ${env.BRANCH_NAME}"
                 echo "=============================="
             }
         }
